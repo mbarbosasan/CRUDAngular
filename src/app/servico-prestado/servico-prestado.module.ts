@@ -9,16 +9,19 @@ import { RouterModule } from '@angular/router';
 
 
 @NgModule({
-  declarations: [ServicoPrestadoFormComponent, ServicoPrestadoListaComponent],
+  declarations: [
+    ServicoPrestadoFormComponent, 
+    ServicoPrestadoListaComponent
+  ],
   imports: [
     CommonModule,
     ServicoPrestadoRoutingModule,
     FormsModule,
-    RouterModule,
-  ],
-  exports: [
-    ServicoPrestadoFormComponent,
-    ServicoPrestadoListaComponent,
+    RouterModule
+
+  ], exports : [
+    ServicoPrestadoFormComponent, 
+    ServicoPrestadoListaComponent
   ]
 })
 export class ServicoPrestadoModule { }
